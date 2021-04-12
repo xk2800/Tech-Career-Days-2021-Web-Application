@@ -1,0 +1,438 @@
+<?php
+    include "db-con.php";
+    ob_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KHBFLD56B2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KHBFLD56B2');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Resume Now | Tech Career Days 2021</title>
+
+    <link rel="icon" type="image/favicon" href="img/favicon_io/favicon.ico">
+
+    <!-- SEO -->
+    <meta name="keyword" content="career days, MMU, mmu, multimedia university, ITS, its mmu">
+    <meta name="description" content="Tech Career Days is an annual two-day tech job fair organized by IT society of Multimedia University.">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/new2.css" rel="stylesheet">
+    
+    <!-- FONT CSS -->
+    <link href="../css/font.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!--link href="jumbotron.css" rel="stylesheet-->
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <script src="Chart.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+
+<!--style type="text/css">
+    .container {
+        width: 50%;
+        margin: 15px auto;
+    }
+</style-->
+
+<style>
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #C0C0C0; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+    #piechart{
+        width: 700px; 
+        height: 500px;
+    }
+
+    #curve_chart{
+        width: 700px; 
+        height: 380px; 
+        margin-left: -90px;
+    }
+
+    @media screen and (max-width: 767px){
+        #piechart{
+            width: 500px; 
+            height: 300px;
+            margin-left: -50px;
+        }
+        #curve_chart{
+            width: 400px; 
+            height: 180px; 
+            margin-left: -40px;
+        }
+    }
+
+</style>
+
+<!-- PIE CHART FOR JOB SEEKER TYPE -->
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>  
+            <script type="text/javascript">  
+            google.charts.load('current', {'packages':['corechart']});  
+            google.charts.setOnLoadCallback(drawChart);  
+            function drawChart()  
+            {
+                <?php
+                    $query = "SELECT job_type, count(*) as number FROM resume WHERE vetting='3' GROUP BY job_type ";  
+                    $result = mysqli_query($connect, $query);
+                ?>
+                    var data = google.visualization.arrayToDataTable([  
+                            ['vetting', 'Number'],  
+                            <?php  
+                            while($row = mysqli_fetch_array($result))  
+                            {  
+                                echo "['".$row["job_type"]."', ".$row["number"]."],";  
+                            }  
+                            ?>  
+                        ]);  
+                    var options = {  
+                        title: '',  
+                        //is3D:true,  
+                        pieHole: 0.5
+                        };  
+                    var chart = new google.visualization.PieChart(document.getElementById('piechart'));  
+                    chart.draw(data, options);  
+            }  
+            </script>  
+
+<!-- LINE CHART FOR RESUME UPLOADS TREND-->
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawChart);
+
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable([
+                    ['Last Edited Date', 'Number of submissions'], //, 'Expenses'
+
+                    //PHP Code 
+                    <?php
+                        $query1="SELECT count(file) as number, db_time from resume WHERE vetting!='0' GROUP BY db_time";
+                        $res=mysqli_query($connect,$query1);
+                        while($data=mysqli_fetch_array($res)){
+                            $year=$data['db_time'];
+                            $sale=$data['number'];
+                            //$expense=$data['expenses'];
+                    ?>  
+                    ['<?php echo $year;?>',<?php echo $sale;?>,
+                    <?php //echo $expense;?>], 
+                    <?php      
+                        }
+
+                    ?> 
+            
+                    ]);
+
+                    var options = {
+                    title: '',
+                    curveType: 'function',
+                    legend: { position: 'bottom' }
+                    };
+
+                    var chart = new google.visualization.LineChart (document.getElementById('curve_chart'));
+
+                    chart.draw(data, options);
+                }
+            </script>
+
+
+<style>
+    html, body {
+        overflow-x: hidden;
+    }
+	.jumbotron{
+
+        padding:2rem 1rem;
+        margin-bottom:2rem;
+        border-radius:.3rem;
+        margin-bottom: 50px;
+        background: no-repeat center center;
+        background-attachment: scroll;
+        position: relative;
+        background-size: cover;
+        overflow: hidden; 
+        position: relative; 
+        width: 100%;
+        background-image: url("../img/imgT.jpg");
+        background-attachment: fixed; 
+        background-size: cover; 
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: top center;
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+
+    }
+    .text-center{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.85;
+    border-radius: 10px;
+    box-shadow: 10px 2px 20px #B5B5B4;
+    font-family: 'Bebas Neue', cursive;
+    }
+
+    .sub-title{
+        font-family: 'Arvo', serif;
+        font-size: 16px;
+    }
+    .title{
+        font-family: 'Bebas Neue', cursive;
+    }
+	body {
+        font-family: 'Arvo', serif;
+        font-size: 14px;
+        color: #333333;
+        background-color: #fff;
+    }
+    .submitbtn{
+        background-color: #cc0000;
+        border: 1px solid red;
+        color: white;
+        font-weight: bold;
+		font-size:24px;
+		padding: 14px 40px;
+		border-radius: 12px;
+        }
+    .submitbtn:hover{
+        border-color: #4368a3;
+        border-radius: 5px;
+        color:#7ca7eb;
+        background-color: #15243C;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    
+    <div class="jumbotron jumbopic">
+        <!-- <div class="mx-5 px-6 text-white bg-black rounded-lg border-black bg-opacity-80 "> -->
+        <div class="container text-center">
+            <h1 class="display-3"><b>Tech Career Days 2021 Resume Submission</b></h1>
+            <p class="sub-title">Submit your resume.pdf, get advices from Tech Career Days volunteers, and get contacted by employers before the event.</p>
+        </div>
+        </br>
+    </div>
+
+    <div class="container">
+
+    <!-- Example row of columns -->
+    <div class="row"`>
+            <div class= "col-sm-12" style= "text-align:center;">
+                <div class="alert alert-info" role="alert">
+                    <p style="font-size: 22px;">We will continue to accept your resumes until 31st January 2021</p>
+                </div>
+				<a class="btn btn-light btn-md submitbtn " href="login" style="margin:5px;">Login</a>
+				<a class="btn btn-light btn-md submitbtn " href="register" style="margin:5px;">Signup</a>
+			</div>
+    </div>
+    <!--br-->
+    
+    <br>
+	    <div class="page-header">
+		    <h2 class="title">Resume Checklist</h2>
+	    </div>
+	
+		<hr>
+		
+		<div class="row">
+			<div class="col-lg-3">
+				<h3 class="title">File Format</h3>
+				    <ul class="para">
+                        <li>Saved as PDF</li>
+                        <li>1 page only</li>
+                        <li>File size limit <b>&lt;1MB</b></li>
+                        <br>
+                        <li><div class="alert alert-primary" role="alert" >
+                            Psst, <a href="https://resume.techcareerdays.com/resume" class="alert-link">check this out</a> to get the event link invite.
+                        </div></li>
+				    </ul>
+			</div>
+	
+			<div class="col-lg-5">
+			    <h3 class="title">Try To Put</h3>
+			    <ul class="para">
+                    <li>Your name should be the most visible element</li>
+                    <li>Contact information including phone number (with country code), professional looking e-mail address</li>
+                    <li>Programming languages, frameworks, and game engines you are confident in using</li>
+                    <li>Additional experiences, leadership experiences, awards, dean's lists, and etc</li>
+                    <li>Certifications</li>
+                    <li>Your own side projects and hacks outside course structure (for the lack of job experiences)</li>
+                    <li>Links to your portfolio, GitHub, etc</li>
+			    </ul>
+			</div>
+			
+			<div class="col-lg-4">
+			    <div class="alert alert-danger">
+				    <div class="panel-heading">
+				        <h3 class="title">Do Not Put!!</h3>
+				    </div>
+                    <div class="panel-body">
+                        <ul class="para">
+                            <li>Photo</li>
+                            <li>Home address</li>
+                            <li>Gender, religion, marital status, ethnicity, NRIC/passport number, age</li>
+                            <li>Education history before diploma/degree</li>
+                            <li>Irrelevant past job experiences</li>
+                            <li>IDEs, text editors, and Microsoft Office as skill sets</li>
+                            <li>Personal interests and hobbies</li>
+                            <li>Boilerplate summary and objectives</li>
+                            <li>Expected salary</li>
+                        </ul>
+                    </div>
+			    </div>
+			</div>
+		</div>
+    </div> 
+
+</br>
+</br>
+
+    <div class= "container">
+        <div class="page-header">
+            <h2 class="title">Trends</h2>
+        </div>
+        
+        <hr>
+        
+        <div class="row">
+            <div class=" col-md-6">
+                <h3 class="title">Resume Uploads</h3>
+                <div id="curve_chart"></div>
+
+                <?php
+
+                $quer="SELECT count(*) as number from resume WHERE vetting='3'";
+                $rest=mysqli_query($mysqli,$quer);
+
+                while($data=mysqli_fetch_array($rest)){
+                    //$year=$data['last_edit_time'];
+                    $sale=$data['number'];
+                }
+                echo "Total number of resume's approved to date: ".$sale;
+                
+                ?>
+                <br><br>
+            </div>
+
+            <div class=" col-md-6">
+                <h3 class="title" class="title_pie">Job seeker Types</h3>
+
+                <div>   
+                        <div id="piechart"></div>  
+                </div>  
+            </div>
+        </div>
+    </div><!-- /container -->
+        
+</br>
+</br>
+</br>
+</br>
+</br>
+
+    <div class= "container">
+        <div class="page-header">
+            <h2 class="title">Resources</h2>
+        </div>
+    <hr>
+    
+        <div class="row">
+            <!--div class="col-lg-4">
+                <h3>Free Resume Printing</h3>
+                <p>When you upload your resume to this website, you can print your resume for free during the event.</p>
+                <p>Give your student ID to the volunteers that day. For security reasons, we do not accept USB drives.</p>
+            </div-->
+            <div class="col-lg-4">
+                <h3 class="title">Guides</h3>
+                <ul>
+                    <li><a href="https://www.gayle.com/career-advice/" target="_blank">Gayle's Career Advices <b>(!!!)</b></a></li>
+                    <li><a href="https://www.joelonsoftware.com/2004/01/26/getting-your-resume-read/" target="_blank">Joel on Software - Getting Your Resume Read</a></li>
+                    <li><a href="https://forum.lowyat.net/Jobs&Careers" target="_blank">Lowyat.net Forum - Jobs &amp; Careers</a></li>
+                    <li><a href="https://www.themuse.com/tags/resumes-cover-letters" target="_blank">The Muse Career Advice Blog</a></li>
+                    <li><a href="https://blog.wobbjobs.com/resume-writing/" target="_blank">A Step-By-Step Guide to Resume Writing in Malaysia by WOBB</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h3 class="title">Samples</h3>
+                <ul>
+                    <li><a href="../samples/light.pdf" target="_blank">Lightweight</a></li>
+                    <li><a href="../samples/resume.pdf" target="_blank">Too</a></li>
+                    <li><a href="https://chingjunehao.github.io/assets/resume_JuneHao.pdf" target="_blank">June Hao</a></li>
+                    <li><a href="../samples/henry.pdf" target="_blank">Henry</a></li>
+                    <!-- SUGGESTED TO REMOVE-->
+                    <li><a href="https://www.anonoz.com/cv-chinese.pdf" target="_blank">Chinese (Only for Chinese companies)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</br>
+</br>
+
+    <footer class="container">
+    <hr>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    <a href="https://resume.techcareerdays.com/public/company/src/login.php" target="_blank">Employer Login</a>
+                </p>
+                <p>
+                    <a href="https://techcareerdays.com/" target="_blank">Tech Career Days</a>
+                </p>
+                <p>
+                    <a href="https://itsociety.rocks" target="_blank">IT Society MMU Cyberjaya</a>
+                </p>
+                <p>
+                    <a href="https://tcd2021-committee.herokuapp.com/" target="_blank">Committee Login</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>&copy; Copyright <script>document.write(new Date().getFullYear())</script>  - IT Society MMU Cyberjaya.</p>
+                <p>Built with &#10084;&#65039; by <a href="https://github.com/xk2800">Xavier</a>, <a href="https://github.com/Shaunmak1214">Shaun</a> & Kuni, in <a href="https://en.wikipedia.org/wiki/Cyberjaya" style="color: black;">Cyberjaya</a>.</p>
+                <!--p><a href="#">Source code</a></p-->
+            </div>
+        </div>
+        <br><br>
+    </footer>
+
+</main>
+</html>

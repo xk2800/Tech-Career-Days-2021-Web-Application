@@ -1,0 +1,240 @@
+Date : 2020-12-09 14:00:01
+Directory : d:\Program Files\XAMPP\htdocs\TCD2020-resume
+Total : 192 files,  16335 codes, 6343 comments, 4051 blanks, all 26729 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |        146 |     12,581 |      6,229 |      2,705 |     21,515 |
+| CSS        |         13 |      2,220 |         72 |        951 |      3,243 |
+| HTML       |         11 |        777 |         31 |        139 |        947 |
+| Markdown   |          5 |        345 |          0 |        158 |        503 |
+| JavaScript |          4 |        154 |          7 |         93 |        254 |
+| XML        |          9 |        140 |          1 |          2 |        143 |
+| JSON       |          3 |        103 |          0 |          2 |        105 |
+| SCSS       |          1 |         15 |          3 |          1 |         19 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                               |        192 |     16,335 |      6,343 |      4,051 |     26,729 |
+| PHPMailer                                                                                       |         60 |      4,852 |      3,040 |        750 |      8,642 |
+| PHPMailer\language                                                                              |         51 |        987 |        313 |        100 |      1,400 |
+| PHPMailer\src                                                                                   |          5 |      3,558 |      2,681 |        555 |      6,794 |
+| css                                                                                             |         10 |        477 |         32 |         71 |        580 |
+| img                                                                                             |         11 |        156 |          1 |          4 |        161 |
+| img\favicon_io                                                                                  |          1 |          1 |          0 |          0 |          1 |
+| img\icons                                                                                       |          6 |        105 |          1 |          2 |        108 |
+| img\image                                                                                       |          1 |          1 |          0 |          0 |          1 |
+| js                                                                                              |          2 |         24 |          0 |          3 |         27 |
+| public                                                                                          |        105 |     10,485 |      3,260 |      3,152 |     16,897 |
+| public\PHPMailer                                                                                |         60 |      4,852 |      3,040 |        750 |      8,642 |
+| public\PHPMailer\language                                                                       |         51 |        987 |        313 |        100 |      1,400 |
+| public\PHPMailer\src                                                                            |          5 |      3,558 |      2,681 |        555 |      6,794 |
+| public\company                                                                                  |         23 |      3,445 |        116 |      1,899 |      5,460 |
+| public\company\css                                                                              |          6 |      1,787 |         43 |        885 |      2,715 |
+| public\company\js                                                                               |          4 |        159 |          7 |         94 |        260 |
+| public\company\src                                                                              |         12 |      1,485 |         66 |        918 |      2,469 |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                        | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\404.html                                           | HTML       |        325 |          7 |         66 |        398 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\README.md                                | Markdown   |        158 |          0 |         64 |        222 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\SECURITY.md                              | Markdown   |         14 |          0 |         15 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\composer.json                            | JSON       |         51 |          0 |          1 |         52 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\get_oauth_token.php                      | PHP        |         84 |         46 |         15 |        145 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-af.php           | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-am.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ar.php           | PHP        |         21 |          5 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-az.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ba.php           | PHP        |         20 |          5 |          1 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-be.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-bg.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ca.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ch.php           | PHP        |         13 |         12 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-cs.php           | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-da.php           | PHP        |         20 |          7 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-de.php           | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-el.php           | PHP        |         19 |          5 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-eo.php           | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-es.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-et.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-fa.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-fi.php           | PHP        |         14 |         12 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-fo.php           | PHP        |         13 |         12 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-fr.php           | PHP        |         20 |          8 |          2 |         30 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-gl.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-he.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-hi.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-hr.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-hu.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-id.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-it.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ja.php           | PHP        |         13 |         13 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ka.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ko.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-lt.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-lv.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-mg.php           | PHP        |         20 |          5 |          1 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ms.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-nb.php           | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-nl.php           | PHP        |         22 |          5 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-pl.php           | PHP        |         21 |          4 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-pt.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-pt_br.php        | PHP        |         20 |          8 |          2 |         30 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ro.php           | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-ru.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-sk.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-sl.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-sr.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-sv.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-tl.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-tr.php           | PHP        |         20 |          9 |          2 |         31 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-uk.php           | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-vi.php           | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-zh.php           | PHP        |         20 |          7 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\language\phpmailer.lang-zh_cn.php        | PHP        |         20 |          7 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\src\Exception.php                        | PHP        |          9 |         28 |          3 |         40 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\src\OAuth.php                            | PHP        |         46 |         79 |         14 |        139 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\src\PHPMailer.php                        | PHP        |      2,663 |      1,789 |        369 |      4,821 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\src\POP3.php                             | PHP        |        168 |        209 |         45 |        422 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\PHPMailer\src\SMTP.php                             | PHP        |        672 |        576 |        124 |      1,372 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\README.md                                          | Markdown   |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\404.css                                        | CSS        |        255 |          4 |         40 |        299 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\font.css                                       | CSS        |          3 |         11 |          2 |         16 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\index.html                                     | HTML       |         15 |          0 |          2 |         17 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\login.css                                      | CSS        |          3 |          0 |          1 |          4 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\new2.css                                       | CSS        |          1 |          6 |          0 |          7 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\parallax-login.css                             | CSS        |         72 |          3 |         10 |         85 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\parallax.css                                   | CSS        |         73 |          2 |         10 |         85 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\select-box.css                                 | CSS        |         17 |          3 |          1 |         21 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\select-box.scss                                | SCSS       |         15 |          3 |          1 |         19 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\css\verify-email.css                               | CSS        |         23 |          0 |          4 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\db-con.php                                         | PHP        |          5 |          3 |          4 |         12 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\download-loading.svg                           | XML        |         19 |          0 |          0 |         19 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\favicon_io\site.webmanifest                    | JSON       |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\icons\approved.svg                             | XML        |          4 |          0 |          0 |          4 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\icons\decline.svg                              | XML        |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\icons\details.svg                              | XML        |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\icons\lists.svg                                | XML        |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\icons\refresh.svg                              | XML        |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\icons\reset.svg                                | XML        |         97 |          1 |          2 |        100 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\image\user.svg                                 | XML        |          1 |          0 |          0 |          1 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\index.html                                     | HTML       |         15 |          0 |          2 |         17 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\img\loader-ring.svg                                | XML        |         15 |          0 |          0 |         15 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\index.php                                          | PHP        |         10 |          0 |          1 |         11 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\js\index.html                                      | HTML       |         15 |          0 |          2 |         17 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\js\show-pwd.js                                     | JavaScript |          9 |          0 |          1 |         10 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\README.md                         | Markdown   |        158 |          0 |         64 |        222 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\SECURITY.md                       | Markdown   |         14 |          0 |         15 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\composer.json                     | JSON       |         51 |          0 |          1 |         52 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\get_oauth_token.php               | PHP        |         84 |         46 |         15 |        145 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-af.php    | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-am.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ar.php    | PHP        |         21 |          5 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-az.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ba.php    | PHP        |         20 |          5 |          1 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-be.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-bg.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ca.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ch.php    | PHP        |         13 |         12 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-cs.php    | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-da.php    | PHP        |         20 |          7 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-de.php    | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-el.php    | PHP        |         19 |          5 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-eo.php    | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-es.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-et.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-fa.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-fi.php    | PHP        |         14 |         12 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-fo.php    | PHP        |         13 |         12 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-fr.php    | PHP        |         20 |          8 |          2 |         30 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-gl.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-he.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-hi.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-hr.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-hu.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-id.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-it.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ja.php    | PHP        |         13 |         13 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ka.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ko.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-lt.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-lv.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-mg.php    | PHP        |         20 |          5 |          1 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ms.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-nb.php    | PHP        |         20 |          4 |          2 |         26 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-nl.php    | PHP        |         22 |          5 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-pl.php    | PHP        |         21 |          4 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-pt.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-pt_br.php | PHP        |         20 |          8 |          2 |         30 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ro.php    | PHP        |         20 |          5 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-ru.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-sk.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-sl.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-sr.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-sv.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-tl.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-tr.php    | PHP        |         20 |          9 |          2 |         31 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-uk.php    | PHP        |         20 |          6 |          2 |         28 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-vi.php    | PHP        |         19 |          6 |          2 |         27 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-zh.php    | PHP        |         20 |          7 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\language\phpmailer.lang-zh_cn.php | PHP        |         20 |          7 |          2 |         29 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\src\Exception.php                 | PHP        |          9 |         28 |          3 |         40 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\src\OAuth.php                     | PHP        |         46 |         79 |         14 |        139 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\src\PHPMailer.php                 | PHP        |      2,663 |      1,789 |        369 |      4,821 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\src\POP3.php                      | PHP        |        168 |        209 |         45 |        422 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\PHPMailer\src\SMTP.php                      | PHP        |        672 |        576 |        124 |      1,372 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\css\dashboard.css                   | CSS        |        754 |         13 |        394 |      1,161 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\css\index.css                       | CSS        |          9 |          0 |          6 |         15 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\css\index.html                      | HTML       |         14 |          0 |          2 |         16 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\css\login.css                       | CSS        |        436 |          8 |        209 |        653 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\css\moreDetails.css                 | CSS        |        399 |         15 |        203 |        617 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\css\resetpwd.css                    | CSS        |        175 |          7 |         71 |        253 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\index.html                          | HTML       |         14 |          0 |          2 |         16 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\js\block.js                         | JavaScript |         16 |          0 |          0 |         16 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\js\dashboard.js                     | JavaScript |         94 |          7 |         76 |        177 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\js\index.html                       | HTML       |         14 |          0 |          2 |         16 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\js\login.js                         | JavaScript |         35 |          0 |         16 |         51 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\dashboard.php                   | PHP        |        358 |          1 |        214 |        573 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\download.php                    | PHP        |         25 |         11 |         13 |         49 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\downloadAll.php                 | PHP        |         25 |          1 |         15 |         41 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\incats.php                     | PHP        |         58 |          1 |         43 |        102 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\incforgot.php                  | PHP        |         74 |          9 |         29 |        112 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\inclogin.php                   | PHP        |         49 |          3 |         25 |         77 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\inctable.php                   | PHP        |        266 |          3 |        200 |        469 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\index.html                      | HTML       |         14 |          0 |          2 |         16 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\login.php                       | PHP        |        221 |          1 |        136 |        358 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\logout.php                      | PHP        |          8 |          0 |          0 |          8 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\moreDetails.php                 | PHP        |        210 |         34 |        139 |        383 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\company\src\resetpwd.php                    | PHP        |        177 |          2 |        102 |        281 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\db-con.php                                  | PHP        |          5 |          3 |          4 |         12 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\end.php                                     | PHP        |          6 |          0 |          1 |          7 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\failed_new_resume.php                       | PHP        |         42 |         13 |         30 |         85 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\index copy.html                             | HTML       |        303 |         23 |         54 |        380 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\index.php                                   | PHP        |        321 |          4 |         52 |        377 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\login.php                                   | PHP        |        210 |          6 |         48 |        264 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\nav.html                                    | HTML       |         28 |          1 |          4 |         33 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\register.php                                | PHP        |        277 |          4 |         70 |        351 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\reset-pwd.php                               | PHP        |         53 |          6 |         31 |         90 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\resetPassword.php                           | PHP        |         35 |          2 |         12 |         49 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\resume-upload-chart.php                     | PHP        |         61 |          0 |          4 |         65 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\resume.php                                  | PHP        |        170 |          2 |         26 |        198 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\sendverify.php                              | PHP        |         52 |          8 |         27 |         87 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\success_new_resume.php                      | PHP        |         41 |         14 |         30 |         85 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\test.2.php                                  | PHP        |         73 |          1 |          8 |         82 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\test.3.php                                  | PHP        |         49 |          3 |         13 |         65 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\test.html                                   | HTML       |         20 |          0 |          1 |         21 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\test.php                                    | PHP        |         44 |          3 |          0 |         47 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\test2.php                                   | PHP        |         73 |          1 |          8 |         82 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\upload-new.php                              | PHP        |        244 |          4 |         48 |        296 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\verify.php                                  | PHP        |         38 |          4 |         12 |         54 |
+| d:\Program Files\XAMPP\htdocs\TCD2020-resume\public\view-resume.php                             | PHP        |         43 |          2 |         20 |         65 |
+| Total                                                                                           |            |     16,335 |      6,343 |      4,051 |     26,729 |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
