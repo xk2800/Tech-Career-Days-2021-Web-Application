@@ -43,8 +43,6 @@ include ('../db-con.php');
         exit();
     }
 
-    $connects = mysqli_connect("3.0.146.123", "removal", "VIfYFM0xj6LSTRUe", "TCD-resume");
-
 
     if (isset($_POST["password"])) {
         $pw = $_POST["password"];

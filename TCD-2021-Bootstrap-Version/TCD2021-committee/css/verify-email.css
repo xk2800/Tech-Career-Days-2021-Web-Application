@@ -1,0 +1,27 @@
+.main{
+    color: white;
+    background-color: #15243C;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.link{
+    color: white;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: red;
+}
+
+.home{
+    font-weight: bold;
+}
+
+.home:hover{
+    border-color: #4368a3;
+    border-radius: 5px;
+    color:#4368a3;
+    background-color: #15243C;
+    font-weight: bold;
+}
