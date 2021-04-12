@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,KAAK;EACrB,gBAAgB;EAClB,gBAAgB,EAAE,klBAAklB;EACpmB,mBAAmB,EAAE,iBAAiB;EACtC,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,QAAQ;EACzB,aAAa,EAAC,GAAG;EACjB,MAAM,EAAC,IAAI;EACX,mBAAmB;EACnB,OAAO,EAAE,gBAAgB;EAEzB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,IAAI;EACrB,kBAAkB,EAAE,IAAI;EACxB,UAAU,EAAE,IAAI;CAEjB;;AAjBH,AAgBI,MAhBE,AAgBD,YAAY,CAAC;EAAE,OAAO,EAAE,IAAK;CAAE",
-    "sources": [
-        "select-box.scss"
-    ],
-    "names": [],
-    "file": "select-box.css"
-}
